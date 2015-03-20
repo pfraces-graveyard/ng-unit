@@ -1,0 +1,20 @@
+{
+    "name": "ng-unit",
+    "version": "0.1.0",
+    "description": "Unit testing framework for angular apps",
+    "author": {
+        "name": "Pau Fracés",
+        "email": "pfraces@gmail.com"
+    },
+    "license": "MIT",
+    "dependencies": {
+        "expect.js": "*",
+        "angular-node": "*"
+    },
+    "devDependencies": {
+        "mocha": "*"
+    },
+    "scripts": {
+        "test": "mocha examples/**/*.js"
+    }
+}
